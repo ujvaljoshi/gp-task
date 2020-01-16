@@ -1,0 +1,118 @@
+button {
+  width: 100px;
+  height: 45px;
+  font-size: 18px;
+  transition: all 0.1s;
+}
+
+button:hover {
+  width: 150px;
+  height: 55px;
+}
+
+input {
+  font-size: 20px;
+  width: 200px;
+  margin: 30px 30px 30px 30px;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  background-color: #00143c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: calc(100vh - 100px);
+}
+
+.App-counter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  border-bottom: white 2px solid;
+}
+
+
+.App-todo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: white 2px solid;
+}
+
+.App-todo-section-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.App-todo-section-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  padding: 20px 20px 20px 20px;
+  border: solid white 2px;
+  word-wrap: break-word;
+  width: 300px;
+}
+
+.App-todo-section-list-item div {
+  padding: 0 10px;
+}
+
+.App-todo-section-input {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.App-github-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: white 2px solid;
+  width: 75vw;
+  word-break: break-all;
+  font-size: 1rem;
+}
+
+.App-github-section input {
+  font-size: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
